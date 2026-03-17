@@ -1,0 +1,47 @@
+name: falcon_eye
+description: "FALCON EYE V51.0 - Universal Sovereign Edition. Native OpenGL ES 2.0 C++ pipeline via dart:ffi, Glassmorphism Tactical HUD, Zero Mock Data, GPU Hardware Abstraction (Adreno/Mali), 120FPS point cloud, Real FFT Bio-Tomography, X-Ray Bone Scanner, ECG Monitor, Full Body Scanner, Crypto Monetization."
+publish_to: "none"
+version: 51.1.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.1.0
+  flutter_animate: ^4.0.0
+  flutter_riverpod: ^3.0.0
+  go_router: ^16.2.0
+  sensors_plus: ^6.1.0
+  permission_handler: ^12.0.0
+  device_info_plus: ^12.0.0
+  connectivity_plus: ^7.0.0
+  fl_chart: 0.68.0
+  intl: 0.20.2
+  path_provider: ^2.0.0
+  shared_preferences: 2.5.3
+  hive: 2.2.3
+  hive_flutter: 1.1.0
+  vector_math: ^2.0.0
+  ffi: ^2.0.0
+  process_run: ^1.0.0
+  nfc_manager: ^4.0.0
+  flutter_reactive_ble: ^5.0.0
+  workmanager: 0.9.0+3
+  flutter_local_notifications: ^20.0.0
+  geolocator: 13.0.4
+  crypto: ^3.0.3
+  http: ^1.2.0
+  camera: ^0.11.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
